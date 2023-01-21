@@ -21,7 +21,7 @@ function LoginForm() {
       <br />
       <input className={styles.input} type="password" id="psw" required />{" "}
       <br />
-      <input className={styles.submit} type="submit" value="submit" />
+      <button type="submit" className={styles.submit}>Submit</button>
     </form>
   );
 }
